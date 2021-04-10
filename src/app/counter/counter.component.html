@@ -1,0 +1,12 @@
+<div class="counter">
+  <h1 class="count" [style.color]="count > 0 ? 'green' : 'red'">
+    {{ count }}
+  </h1>
+  <div class="btnContainer">
+    <button (click)="handleInc()">inc counter</button>
+    <button (click)="handleDec()">Dec counter</button>
+    <button (click)="handleIncByVal(20)">inc counter by 20</button>
+    <button (click)="handleDecByVal(30)">Dec counter by 30</button>
+    <button (click)="handleReset()">Reset counter</button>
+  </div>
+</div>

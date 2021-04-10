@@ -1,0 +1,22 @@
+.counter {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.count {
+  font-size: 3rem;
+}
+
+.btnContainer {
+  margin: 2rem 0;
+}
+
+.btnContainer button {
+  margin: 1rem;
+  text-transform: capitalize;
+  padding: 0.4rem 1rem;
+  border-color: lightcyan;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: lightcyan;
+}
