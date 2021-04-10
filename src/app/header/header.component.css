@@ -1,4 +1,10 @@
 header {
   text-align: center;
   text-transform: capitalize;
+  color: white;
+}
+
+.subTitle {
+  color: rgb(231, 225, 218);
+  margin-top: 0.6rem;
 }
